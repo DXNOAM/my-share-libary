@@ -1,11 +1,16 @@
-def deployApp(String branch = 'main') {
-    echo "Deploying application from branch: ${branch}"
+// vars/myLibrary.groovy
+
+def buildApp() {
+    echo "Now building the application..."
+    // Mock build logic here
+}
+
+def deployApp(String branchName) {
+    echo "Now deploying the application on branch: ${branchName}..."
+    // Mock deploy logic here
 }
 
 def cleanup() {
-    echo "Running cleanup tasks"
-}
-
-def buildApp() {
-    echo "Building the application"
+    echo "Cleaning up after build and deployment..."
+    // Mock cleanup logic here
 }
